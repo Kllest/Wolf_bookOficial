@@ -1,0 +1,107 @@
+@media (max-width: 750px){
+    .Menu{
+        display: block;
+    }
+    .navLayout{
+        display: none;
+    }
+    .userLayout{
+        display: none;
+    }
+    .navResponsive{
+        background-color: #8C451C;
+        position: fixed;
+        right: 0;
+        top: 0;
+        width: 60%;
+        height: 100%;
+        z-index: 1;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        box-shadow: -4px -4px 2.2px rgba(0, 0, 0, 0.009), -6.8px -6.8px 5.3px rgba(0, 0, 0, 0.021),
+        -7.7px -7.7px 10px rgba(0, 0, 0, 0.035), -5.3px -5.3px 17.9px rgba(0, 0, 0, 0.049), 
+        4.5px 4.5px 33.4px rgba(0, 0, 0, 0.063), 100px 100px 80px rgba(0, 0, 0, 0.07)
+    }
+    *{
+        font-size: 0.5rem;
+    }.cardsRelative{
+        height: 40vh;
+    }
+    .layoutCards{
+        height: 39vh;
+    }
+    .userLResponsive{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+    }
+    .userLayout a{
+        font-size: 2rem;
+        color: #fff;
+    }
+    .userLayout a::after{
+        background-color: #fff;
+        bottom: -50%;
+    }
+    
+    .register a{
+        background-color: #fff;
+        color: #8C451C;
+        height: 60%;
+        border: #8C451C solid 3px;
+        font-size: 5rem;
+    }
+    
+    .register{
+        width: 40vw;
+        min-width: 15rem;
+        height: 40%;
+    }
+    
+    .register a:hover{
+        border: #fff solid 3px;
+        background-color: #8C451C;
+        color: #fff;
+    }
+    .infLivro p, h1{
+        font-size: 1.3rem;
+    }
+    .buttonRead{
+        height: 20%;
+        font-size: 0.8rem;
+        font-weight: 550;
+    }  
+    .tittleExplore::after{
+        opacity: 0;
+    }
+    .searchBox{
+        width: 50%;
+    }
+    .pesquisar{
+        width: 100%;
+        font-size: 0.8rem;
+    }
+    .pesquisar::placeholder{
+        color: #8C451C;
+        font-size: clamp(1rem, 40%, 100px);
+    }
+} 
+
+@media (max-width: 1074px){
+    .imagemIlustrativa{
+        width: 100%;
+    }
+    .LivrosDestaques{
+        width: 100%;
+    }
+    .register a{
+        font-size: 1.1rem;
+    }
+} 
+
+.Menu{
+    z-index: 2;
+}

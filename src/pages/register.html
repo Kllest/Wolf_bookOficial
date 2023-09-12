@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/login-register.css">
+    <link rel="stylesheet" href="../CSS/global.css">
+    <link rel="stylesheet" href="../CSS/responsiveLoginRegister.css">
+    <title>Wolf - página de registro</title>
+</head>
+<body>
+    <header>
+        <a href="../../index.html" class="logoHome">
+            <img src="../imagem/Logo-Marrom.svg" alt="Logo-Livraria-Wolf">
+        </a>
+    </header>
+    <main class="mainLoginRegister">
+        <form action="#" class="formRegister">
+            <h1>REGISTRAR-SE</h1>
+            <div class="boxRelative">
+                <label for="name" class="labelLR">
+                    Nome de usuário
+                </label>
+                <input type="text" id="name" class="inputLR" autocomplete="off">
+            </div>
+            <div class="boxRelative">
+                <label for="email" class="labelLR">
+                    Email
+                </label>
+                <input type="email" id="email" class="inputLR" autocomplete="off">
+            </div>
+            <div class="boxRelative birthday">
+                <label for="birthday">
+                    Data de nascimento
+                </label>
+                <input type="date" id="birthday">
+            </div>
+            <div class="boxRelative">
+                <label for="password" class="labelLR">
+                    Senha
+                </label>
+                <input type="password" id="password" class="inputLR" autocomplete="off">
+            </div>
+            <div class="confirmBox">
+                <label for="register" class="registerLabel">
+                    REALIZAR REGISTRO
+                    <input type="submit" value="REALIZAR REGISTRO" id="register">
+                </label>
+            </div>
+            <span>Já possui uma conta?<a href="./login.html" class="loginAndRegisterA">entrar</a></span>
+        </form>
+        <div class="background">
+        </div>
+    </main>
+    <script src="../JS/labels.js"></script>
+</body>
+</html>

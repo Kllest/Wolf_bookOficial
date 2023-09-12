@@ -1,0 +1,163 @@
+header{
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    padding: 10px;
+    justify-content: flex-end;
+    position: absolute;
+}
+
+.logoHome{
+    width: 9%;
+}
+
+.logoHome img{
+    width: 100%;
+}
+
+.formRegister{
+    display: flex;
+    height: 100vh;
+    width: 40vw;
+    background-color: #8C451C;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.login{
+    background-color: #fff;
+    color: #8C451C;
+}
+
+.background{
+    height: 100vh;
+    width: 100%;
+    background: url(../imagem/registerBackground.jpg) 53% 80% no-repeat;
+    background-size: 120%;
+}
+
+.loginBG{
+    background: url(../imagem/loginBackground.jpg) 40% 50% no-repeat;
+    background-size: 210%;
+}
+
+.mainLoginRegister{
+    display: flex;
+    color: #fff;
+}
+
+.boxRelative{
+    width: 70%;
+    height: 7%;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+}
+
+.labelLR{
+    position: absolute;
+    top: 32%;
+    left: 5%;
+    transition: ease 200ms;
+}
+
+.birthday{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.inputLR{
+    border: 3px #fff solid;
+    border-radius: 5px;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    background: none;
+    padding: 10px;
+    color: #fff;
+    transition: ease 200ms;
+}
+
+.inputLogin{
+    border: 3px #8C451C solid;
+    color: #8C451C;
+}
+.boxRelative .inputLogin:focus{
+    color: #8C451C;
+    border: #8C451C 4px double;
+}
+
+.inputLR:focus{
+    color: #fff;
+    border: #c9c9c9 4px solid;
+    transition: ease 200ms;
+}
+
+.labelActive {
+    background-color: #8C451C;
+    top: -10%;
+    padding: 0 8px;
+    transition: ease 200ms;
+    text-align: center;
+}
+
+.labelLogin{
+    background-color: #fff;
+}
+
+#register, #registerLogin{
+    display: none;
+    transition: ease 200ms;
+}
+
+.registerLabel{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: 10vh;
+    outline: #fff 5px double;
+    background-color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 550;
+    transition: ease 200ms;
+    color: #8C451C;
+}
+
+.registerLabel:hover{
+    background-color: #8C451C;
+    color: #fff;
+    transform: scale(1.1);
+    transition: ease 200ms;
+}
+
+.loginAndRegisterA{
+    color: #c9c9c9;
+    padding: 2px;
+    border-bottom: #c9c9c9 2px solid;
+}
+
+.loginTalk{
+    color: #181818;
+}
+
+.loginTalk .loginA{
+    color: #8C451C;
+    border-bottom: #8C451C 2px solid;
+}
+
+.LoginLabel{
+    background-color: #8C451C;
+    color: #fff;
+    outline: #8C451C 4px double;
+}
+
+.LoginLabel:hover{
+    background-color: #fff;
+    color: #8C451C;
+}
